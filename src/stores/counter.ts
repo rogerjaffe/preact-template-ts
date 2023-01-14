@@ -1,5 +1,5 @@
 import { atom } from "nanostores";
-import {actionCreator} from "./actionCreator";
+import { actionCreator } from "./actionCreator";
 
 export const counter = atom(0);
 export const counterIncrease = actionCreator<number>(

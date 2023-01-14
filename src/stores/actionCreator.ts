@@ -1,4 +1,4 @@
-import {action, WritableAtom} from "nanostores";
+import { action, WritableAtom } from "nanostores";
 
 export function actionCreator<T>(
   atom: WritableAtom<T>,

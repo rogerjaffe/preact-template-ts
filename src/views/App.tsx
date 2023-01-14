@@ -5,7 +5,7 @@ import WithParms from "./WithParms";
 import { useStore } from "@nanostores/preact";
 import { createSearchParams } from "@nanostores/router";
 import { router } from "../router";
-import usePageTracking from "../hooks/usePageTracking";
+import { usePageTracking } from "../utilities/preact-google-analytics";
 
 function App() {
   usePageTracking();
